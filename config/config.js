@@ -6,7 +6,7 @@ var config = {
   development: {
     root: rootPath,
     app: {
-      name: 'nodeazure'
+      name: 'nodeazure DEV'
     },
     port: process.env.PORT || 3000,
   },
@@ -14,7 +14,7 @@ var config = {
   test: {
     root: rootPath,
     app: {
-      name: 'nodeazure'
+      name: 'nodeazure TEST'
     },
     port: process.env.PORT || 3000,
   },
@@ -22,7 +22,7 @@ var config = {
   production: {
     root: rootPath,
     app: {
-      name: 'nodeazure'
+      name: 'nodeazure PROD'
     },
     port: process.env.PORT || 3000,
   }
